@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.correct-answer {
+    animation: confetti 1s ease-out;
+}
+
+@keyframes confetti {
+    0% { transform: translateY(-100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
